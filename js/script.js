@@ -8,9 +8,8 @@ function init(){
     alert("Mashell Pervaiz: " + textbox.value);// Display an alert with my name and the input
   }
 
-
-
-
+   button.addEventListener('click', showMeText);// When button is clicked, the 'showMeText' function is executed
+  }
 
 
 window.addEventListener('load', init);
