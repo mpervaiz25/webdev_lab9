@@ -4,7 +4,9 @@ function init(){
  
  function showMeText() {// A Function to execute when the button is clicked on
 	 var textbox = document.getElementById('entryinput');// Gets the inputted text with the ID 'entryinput'
-
+   document.getElementById('textoutput').innerHTML = textbox.value;
+    alert("Mashell Pervaiz: " + textbox.value);// Display an alert with my name and the input
+  }
 
 
 
